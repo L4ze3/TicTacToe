@@ -67,6 +67,9 @@ void UserInput(int input, char player, char board[3][3]) {
         board[2][2] = 'O';
         }
       break;
+    default:
+      printf("Is not an integer\n");
+      exit(EXIT_FAILURE);
   }
 }
 
